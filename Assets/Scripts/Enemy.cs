@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
 
-        AudioSource = GetComponent<AudioSource>();
+        //AudioSource = GetComponent<AudioSource>();
 
 
         SetNextTargetWaypoint(true);
